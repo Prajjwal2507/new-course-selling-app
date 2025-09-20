@@ -6,18 +6,24 @@ This project demonstrates authentication, authorization, and CRUD operations usi
 ---
 
 ## 📂 Project Structure
+
+```bash
 new-course-selling-app-main/
-│── index.js # Entry point of the application
-│── config.js # Configuration (JWT secret, DB URL, etc.)
-│── db/
-│ └── index.js # MongoDB models (User, Admin, Course)
-│── middleware/
-│ ├── admin.js # Middleware for admin authentication
-│ └── user.js # Middleware for user authentication
-│── routes/
-│ ├── admin.js # Admin-related routes (signup, login, courses)
-│ └── user.js # User-related routes (signup, login, courses)
-│── package.json # Project dependencies
+│── index.js                # Entry point of the application
+│── config.js               # Configuration (JWT secret, DB URL, etc.)
+│
+├── db/
+│   └── index.js            # MongoDB models (User, Admin, Course)
+│
+├── middleware/
+│   ├── admin.js            # Middleware for admin authentication
+│   └── user.js             # Middleware for user authentication
+│
+├── routes/
+│   ├── admin.js            # Admin-related routes (signup, login, courses)
+│   └── user.js             # User-related routes (signup, login, courses)
+│
+│── package.json            # Project dependencies
 │── package-lock.json
 │── .gitignore
 
